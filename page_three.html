@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <title>No. Of Doses</title>
+    <link rel="stylesheet" href="./styles.css">
+
+  </head>
+  <body>
+    <h1>NUMBER OF DOSES</h1>
+    <div class="tooltip"></div>
+    <div class="container3">
+      <div class="bar-options">
+        <div class="radio-btns">
+          <select name="country" id="age-select">
+            <option value="">Select Age</option>
+            <option value="5-9">5-9</option>
+            <option value="10-14">10-14</option>
+            <option value="15-17">15-17</option>
+            <option value="18-24">18-24</option>
+            <option value="25-49">25-49</option>
+            <option value="50-59">50-59</option>
+            <option selected value="60-69">60-69</option>
+            <option value="70-79">70-79</option>
+            <option value="80+">80+</option>
+          </select>
+        </div>
+
+        <div class="bar-charts">
+          <div id="dose-one"></div>
+          <div id="dose-two"></div>
+          <div id="dose-three"></div>
+        </div>
+      </div>
+    </div>
+    <script src="/JS/page_three.js"></script>
+  </body>
+</html>

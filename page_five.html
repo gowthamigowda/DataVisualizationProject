@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <title>Vaccine Stats</title>
+    <link rel="stylesheet" href="./styles.css">
+    
+
+  </head>
+  <body>
+    <h1>INITIAL AND BOOSTER SHARE BY SELECTING AGE AND COUNTRYY</h1>
+    <div class="tooltip"></div>
+    <div class="container5">
+   <div class="radio-btns">
+      <div class="bar-options">
+      <select name="Entity" id="country-select"  >
+        <option value="">Select a country</option>
+        <option value="France">France</option>
+        <option selected value="Italy">Italy</option>
+        <option value="Russia">Russia</option>
+        <option value="Norway">Norway</option>
+        <option value="Germany">Germany</option>
+        <option value="Poland">Poland</option>
+        <option value="Austria">Austria</option>
+        <option value="Hungary">Hungary</option>
+        <option value="Denmark">Denmark</option>
+        <option value="Portugal">Portugal</option>
+        <option value="Belgium">Belgium</option>
+        <option value="Bulgaria">Bulgaria</option>
+        <option value="Croatia">Croatia</option>
+        <option value="Czechia">Czechia</option>
+        <option value="Denmark">Denmark</option>
+        <option value="Estonia">Estonia</option>
+        <option value="Finland">Finland</option>
+        <option value="France">France</option>
+        <option value="Greece">Greece</option>
+        <option value="Hungary">Hungary</option>
+        <option value="Iceland">Iceland</option>
+        <option value="Ireland">Ireland</option>
+        <option value="Kosovo">Kosovo</option>
+        <option value="Latvia">Latvia</option>
+        <option value="Liechtenstein">Liechtenstein</option>
+        <option value="Luxembourg">Luxembourg</option>
+        <option value="Malta">Malta</option>
+        <option value="Montenegro">Montenegro</option>
+        <option value="Serbia">Serbia</option>
+        <option value="Slovakia">Slovakia</option>
+        <option value="Slovenia">Slovenia</option>
+        <option value="Spain">Spain</option>
+        <option value="Sweden">Sweden</option>
+        <option value="Switzerland">Switzerland</option>
+        <option value="Turkey">Turkey</option>
+        <option value="Ukraine">Ukraine</option>
+        <option value="United Kingdom">United Kingdom</option>
+        <option value="Moldova">Moldova</option>
+        <option value="Monaco">Monaco</option>
+        <option value="San Marino">San Marino</option>
+        <option value="North Macedonia">North Macedonia</option>
+        <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+        <option value="Belarus">Belarus</option>
+        
+
+      </select>
+       </div>
+      </div>
+
+    
+     <div class="tooltip"></div>
+      <div class="container5">
+        
+          <div class="radio-btns">
+            <select name="country" id="age-select" >
+              <option value="">Select Age</option>
+              <option value="05-09">05-09</option>
+              <option value="10-14">10-14</option>
+              <option value="15-17">15-17</option>
+              <option value="18-24">18-24</option>
+              <option value="25-49">25-49</option>
+              <option value="50-59">50-59</option>
+              <option selected value="60-69">60-69</option>
+              <option value="70-79">70-79</option>
+              <option value="80+">80+</option>
+            </select>
+          </div>
+
+      <div class="line-chart">
+        <div id="dose-one"></div>
+        <div id="dose-two"></div>
+        <div id="dose-three"></div>
+      </div>
+
+
+</div>
+      
+    </div>
+    <script src="/JS/page_five.js"></script>
+
+  </body>
+</html>

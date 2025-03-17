@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tooltip {
+    position: absolute;
+    opacity: 0;
+    display: hidden;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    padding: 5px;
+    z-index: 4;
+    border: 1px solid #9f9f9f;
+    pointer-events: none;
+  }
+
+
+  .container3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+  }
+
+  .tooltip {
+    position: fixed;
+    opacity: 0;
+    display: hidden;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    padding: 5px;
+    z-index: 4;
+    border: 1px solid #9f9f9f;
+    pointer-events: none;
+  }
+
+  .bar-options {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+
+  .radio-btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    justify-content: space-between;
+  }
+
+  .radio-container {
+    display: flex;
+    align-items: center;
+  }
+  .radio-container label {
+    margin-right: 1.5rem;
+  }
+
+  select {
+    border: 1px solid #9f9f9f;
+    border-radius: 2px;
+    font-size: 1rem;
+    padding: 0.3rem;
+    outline: none;
+  }
+
+  .bar-charts {
+    display: flex;
+  }
+
+  .bar-charts > div {
+    margin-right: 1rem;
+  }
+
+  .container2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+  }
+
+
+
+  .tooltip {
+    position: absolute;
+    opacity: 0;
+    display: hidden;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    padding: 5px;
+    z-index: 4;
+    border: 1px solid #9f9f9f;
+    pointer-events: none;
+  }
+
+  #pie-chart{
+    margin:40px 0;
+  }
+
+  .container4 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+  }
+
+  .tooltip {
+    position: absolute;
+    opacity: 0;
+    display: hidden;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    padding: 5px;
+    z-index: 4;
+    border: 1px solid #9f9f9f;
+    pointer-events: none;
+  }
+
+  select {
+    border: 1px solid #9f9f9f;
+    border-radius: 2px;
+    font-size: 1rem;
+    padding: 0.3rem;
+    outline: none;
+    margin-bottom: 1rem;
+  }
+  .line-chart {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container5 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+  }
+
+  .tooltip {
+    position: absolute;
+    opacity: 0;
+    display: hidden;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    padding: 5px;
+    z-index: 4;
+    border: 1px solid #9f9f9f;
+    pointer-events: none;
+  }
+
+  select {
+    border: 1px solid #9f9f9f;
+    border-radius: 2px;
+    font-size: 1rem;
+    padding: 0.3rem;
+    outline: none;
+    margin-bottom: 1rem;
+  }
+  .line-chart {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media screen and (max-width:500px) {
+    .radio-btns{
+      justify-content: center;
+    }
+    .bar-charts {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .bar-charts> * {
+    margin-bottom: 10px;
+  }
+  *{
+    font-family: Lato;
+  }
+
+  .axis-x path {
+    stroke: #000;
+  }
+
+  .line {
+    fill: none;
+    stroke-width: 1.5px;
+    stroke-linejoin: "round";
+    stroke-linecap: "round";
+  }
+
+  .line:hover {
+    stroke-width: 2px;
+  }
+
+  #container{
+  display: flex;
+  flex-wrap: wrap;
+  }
+  #headline{
+    min-width:100%;
+  }
+
+  #menu{
+    display: inline;
+    width: 100%;
+    /* border:1px solid black; */
+    /* padding: 1%; */
+  }
+
+  #nation{
+    display: inline;
+    padding-left: 1%;
+  }
+
+  span{
+    color:rgb(25, 159, 139)
+  }
+  *{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: blueviolet;
+}
+input{
+    outline: none;
+    border: none;
+}
+.multi-selector{
+    width: max-content;
+}
+.select-field{
+    border: 1px solid rgb(187, 187, 187);
+}
+.select-field,.task,.list{
+    width: 100%;
+    background-color: white;
+    padding: 0.3rem;
+}
+.list{
+    box-shadow: 0 30px 60px rgb(0,0,0,0.2);
+    display: none;
+}
+.down-arrow{
+    font-size: 1.2rem;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+.task{
+    display: block;
+    padding-left: 0;
+}
+.task span{
+    float: right;
+    font-size: 0.6rem;
+    padding-top: 6px;
+}
+.task:hover{
+    background-color: aliceblue;
+}
+.show{
+    display: block;
+}
+.rotate180{
+    transform: rotate(-60deg);
+}
+.container6 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10rem 0;
+}
+
+
+
+}
